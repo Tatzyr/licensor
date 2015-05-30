@@ -42,7 +42,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/tatzyr
 
 ## Licence
 
-See [LICENSE]().
+See [LICENSE](LICENSE).
 
 
 ## Author
