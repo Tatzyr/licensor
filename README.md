@@ -20,8 +20,9 @@ $ licensor create bsd
 
 
 ### Options:
+  * `-f`, `--filename <FILENAME>`: The output filename. Default value is `LICENSE'.
+  * `-n`, `--name <NAME>`: The name to use. Default value is obtained from git.
   * `-y`, `--year <YEAR>`: The year to use. Default value is this year.
-  * `-n`, `--name=NAME`: The name to use. Default value is obtained from git.
 
 ## Installation
 
