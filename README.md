@@ -7,17 +7,18 @@ Create LICENSE file into your project.
 
 ## Usage
 ### Commands
-  * `-l`, `--list`: See all available licenses.
-  * `-v`, `--version`: Print the version.
-  * `create <LICENSE>`: Create a license file.
-  * `help [COMMAND]`: Describe available commands or one specific command.
-  * `show <LICENSE>`: Show a license text.
+
+* `licensor create <LICENSE>`: Create a license file.
+* `licensor help [COMMAND]`: Describe available commands or one specific command.
+* `licensor list`: See all available licenses.
+* `licensor show <LICENSE>`: Show a license text.
+* `licensor version`: Print the version.
 
 
 ### Options
-  * `-f`, `--filename <FILENAME>`: The output filename. Default value is `LICENSE'.
-  * `-n`, `--name <NAME>`: The name to use. Default value is obtained from git.
-  * `-y`, `--year <YEAR>`: The year to use. Default value is this year.
+* `-f`, `--filename <FILENAME>`: The output filename. Default value is `LICENSE'.
+* `-n`, `--name <NAME>`: The name to use. Default value is obtained from git.
+* `-y`, `--year <YEAR>`: The year to use. Default value is this year.
 
 ### Examples
 
@@ -33,7 +34,7 @@ $ gem install licensor
 
 ## Available Licenses
 
-Run `licensor --list` to see all available licenses.
+Run `licensor list` to see all available licenses.
 
 * apache
 * artistic
