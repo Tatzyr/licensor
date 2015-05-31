@@ -22,7 +22,7 @@ module Licensor
 
     private
     def find_templates
-      Dir["lib/licensor/templates/*#{EXTNAME}"]
+      Dir["#{__dir__}/templates/*#{EXTNAME}"]
     end
   end
 end
