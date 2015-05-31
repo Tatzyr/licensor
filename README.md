@@ -20,7 +20,7 @@ Create LICENSE file into your project.
 * `-n`, `--name <NAME>`: The name to use. Default value is obtained from git.
 * `-y`, `--year <YEAR>`: The year to use. Default value is this year.
 
-### Examples
+### Demo
 
 ![options-demo](https://cloud.githubusercontent.com/assets/1025461/7900297/b8a3e45c-0788-11e5-892f-f0670ea3593f.gif)
 
