@@ -2,15 +2,10 @@
 
 Create LICENSE file into your project.
 
+![create-demo](https://cloud.githubusercontent.com/assets/1025461/7900296/ab43db5a-0788-11e5-9e61-7a3366ff460d.gif)
+
 
 ## Usage
-
-```
-$ licensor --list
-$ licensor show zlib -n "John Doe"
-$ licensor create bsd
-```
-
 ### Commands
   * `-l`, `--list`: See all available licenses.
   * `-v`, `--version`: Print the version.
@@ -19,16 +14,40 @@ $ licensor create bsd
   * `show <LICENSE>`: Show a license text.
 
 
-### Options:
+### Options
   * `-f`, `--filename <FILENAME>`: The output filename. Default value is `LICENSE'.
   * `-n`, `--name <NAME>`: The name to use. Default value is obtained from git.
   * `-y`, `--year <YEAR>`: The year to use. Default value is this year.
+
+### Examples
+
+![options-demo](https://cloud.githubusercontent.com/assets/1025461/7900297/b8a3e45c-0788-11e5-892f-f0670ea3593f.gif)
+
+![default-demo](https://cloud.githubusercontent.com/assets/1025461/7900299/c699421e-0788-11e5-8354-9cbbc4318f91.gif)
 
 ## Installation
 
 ```
 $ gem install licensor
 ```
+
+## Available Licenses
+
+Run `licensor --list` to see all available licenses.
+
+* apache
+* artistic
+* bsd
+* eclipse
+* gpl
+* lgpl
+* mit
+* mozilla
+* nysl
+* zlib
+* no-license
+* unlicense
+
 
 ## Development
 
