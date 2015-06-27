@@ -58,7 +58,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/tatzyr/licensor.
+Bug reports and pull requests are welcome on GitHub at https://github.com/Tatzyr/licensor.
 
 
 ## Licence
@@ -68,4 +68,4 @@ See [LICENSE](LICENSE).
 
 ## Author
 
-[OTSUKA Tatsuya](https://github.com/tatzyr)
+[OTSUKA Tatsuya](https://github.com/Tatzyr)

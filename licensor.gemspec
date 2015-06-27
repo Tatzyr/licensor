@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["tatzyr@gmail.com"]
 
   spec.summary       = %q{Create LICENSE file into your project.}
-  spec.homepage      = "https://github.com/tatzyr/licensor"
+  spec.homepage      = "https://github.com/Tatzyr/licensor"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
