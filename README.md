@@ -1,5 +1,10 @@
 # Licensor
 
+[![Gem Version](https://badge.fury.io/rb/licensor.svg)](http://badge.fury.io/rb/licensor)
+[![Code Climate](https://codeclimate.com/github/Tatzyr/licensor/badges/gpa.svg)](https://codeclimate.com/github/Tatzyr/licensor)
+[![Dependency Status](https://gemnasium.com/Tatzyr/licensor.svg)](https://gemnasium.com/Tatzyr/licensor)
+
+
 Create LICENSE file into your project.
 
 ![create-demo](https://cloud.githubusercontent.com/assets/1025461/7900296/ab43db5a-0788-11e5-9e61-7a3366ff460d.gif)
