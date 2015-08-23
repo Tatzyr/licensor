@@ -6,7 +6,7 @@ require 'licensor/version'
 Gem::Specification.new do |spec|
   spec.name          = "licensor"
   spec.version       = Licensor::VERSION
-  spec.authors       = ["OTSUKA Tatsuya"]
+  spec.authors       = ["Tatsuya Otsuka"]
   spec.email         = ["tatzyr@gmail.com"]
 
   spec.summary       = %q{Create LICENSE file into your project.}

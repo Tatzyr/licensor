@@ -73,4 +73,4 @@ See [LICENSE](LICENSE).
 
 ## Author
 
-[OTSUKA Tatsuya](https://github.com/Tatzyr)
+[Tatsuya Otsuka](https://github.com/Tatzyr)
