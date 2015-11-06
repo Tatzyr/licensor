@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
 require "licensor"
+require "colorize"
 
+warn "[DEPRECATION] This gem has been renamed to `licenza` and will no longer be supported. Please switch to `licenza` as soon as possible.".colorize(:red)
 Licensor::CLI.start(ARGV)
