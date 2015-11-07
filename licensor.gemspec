@@ -27,4 +27,10 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec"
+
+  spec.post_install_message = <<-MESSAGE
+ ! The 'licensor' gem has been deprecated and has been replaced by 'licenza'.
+ ! See: https://rubygems.org/gems/licenza
+ ! And: https://github.com/Tatzyr/licenza
+  MESSAGE
 end
