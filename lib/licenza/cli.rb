@@ -1,6 +1,6 @@
 require "thor"
 
-module Licensor
+module Licenza
   class CLI < Thor
     def initialize(*args)
       super

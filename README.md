@@ -1,8 +1,8 @@
-# Licensor
+# Licenza
 
-[![Gem Version](https://badge.fury.io/rb/licensor.svg)](http://badge.fury.io/rb/licensor)
-[![Code Climate](https://codeclimate.com/github/Tatzyr/licensor/badges/gpa.svg)](https://codeclimate.com/github/Tatzyr/licensor)
-[![Dependency Status](https://gemnasium.com/Tatzyr/licensor.svg)](https://gemnasium.com/Tatzyr/licensor)
+[![Gem Version](https://badge.fury.io/rb/licenza.svg)](http://badge.fury.io/rb/licenza)
+[![Code Climate](https://codeclimate.com/github/Tatzyr/licenza/badges/gpa.svg)](https://codeclimate.com/github/Tatzyr/licenza)
+[![Dependency Status](https://gemnasium.com/Tatzyr/licenza.svg)](https://gemnasium.com/Tatzyr/licenza)
 
 
 Create LICENSE file into your project.
@@ -13,11 +13,11 @@ Create LICENSE file into your project.
 ## Usage
 ### Commands
 
-* `licensor create <LICENSE>`: Create a license file.
-* `licensor help [COMMAND]`: Describe available commands or one specific command.
-* `licensor list`: See all available licenses.
-* `licensor show <LICENSE>`: Show a license text.
-* `licensor version`: Print the version.
+* `licenza create <LICENSE>`: Create a license file.
+* `licenza help [COMMAND]`: Describe available commands or one specific command.
+* `licenza list`: See all available licenses.
+* `licenza show <LICENSE>`: Show a license text.
+* `licenza version`: Print the version.
 
 
 ### Options
@@ -34,12 +34,12 @@ Create LICENSE file into your project.
 ## Installation
 
 ```
-$ gem install licensor
+$ gem install licenza
 ```
 
 ## Available Licenses
 
-Run `licensor list` to see all available licenses.
+Run `licenza list` to see all available licenses.
 
 * apache
 * artistic
@@ -57,13 +57,13 @@ Run `licensor list` to see all available licenses.
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake rspec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment. Run `bundle exec licensor` to use the gem in this directory, ignoring other installed copies of this gem.
+After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake rspec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment. Run `bundle exec licenza` to use the gem in this directory, ignoring other installed copies of this gem.
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/Tatzyr/licensor.
+Bug reports and pull requests are welcome on GitHub at https://github.com/Tatzyr/licenza.
 
 
 ## Licence

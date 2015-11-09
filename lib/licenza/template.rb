@@ -1,6 +1,6 @@
 require "mustache"
 
-module Licensor
+module Licenza
   class Template
     EXTNAME = ".mustache"
 

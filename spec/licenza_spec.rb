@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Licensor do
+describe Licenza do
   let(:zlib_john_2015) {
     <<-EOS.undent
     The zlib license (Zlib)
@@ -29,11 +29,11 @@ describe Licensor do
   }
 
   it 'has a version number' do
-    expect(Licensor::VERSION).not_to be_nil
+    expect(Licenza::VERSION).not_to be_nil
   end
 
-  describe Licensor::Template do
-    let(:template) { Licensor::Template.new }
+  describe Licenza::Template do
+    let(:template) { Licenza::Template.new }
 
     describe "#render" do
       it "should throw an ArgumentError if given license is unsupported" do
@@ -55,14 +55,14 @@ describe Licensor do
       it "should return template files" do
         result = template.send(:find_templates)
         result.each do |filename|
-          expect(File.extname(filename)).to eq(Licensor::Template::EXTNAME)
+          expect(File.extname(filename)).to eq(Licenza::Template::EXTNAME)
         end
       end
     end
   end
 
-  describe Licensor::CLI do
-    let(:cli) { Licensor::CLI.new }
+  describe Licenza::CLI do
+    let(:cli) { Licenza::CLI.new }
 
     describe "#show" do
       it "should output license text to stdout" do
@@ -84,7 +84,7 @@ describe Licensor do
 
     describe "#version" do
       it "should output version" do
-        expect { cli.invoke(:version) }.to output(Licensor::VERSION + "\n").to_stdout
+        expect { cli.invoke(:version) }.to output(Licenza::VERSION + "\n").to_stdout
       end
     end
   end

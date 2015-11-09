@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'licensor/version'
+require 'licenza/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "licensor"
-  spec.version       = Licensor::VERSION
+  spec.name          = "licenza"
+  spec.version       = Licenza::VERSION
   spec.authors       = ["Tatsuya Otsuka"]
   spec.email         = ["tatzyr@gmail.com"]
 
   spec.summary       = %q{Create LICENSE file into your project.}
-  spec.homepage      = "https://github.com/Tatzyr/licensor"
+  spec.homepage      = "https://github.com/Tatzyr/licenza"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"

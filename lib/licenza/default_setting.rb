@@ -1,4 +1,4 @@
-module Licensor
+module Licenza
   module DefaultSetting
     def self.name
       name = `git config --get user.name` rescue nil
