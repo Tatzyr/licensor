@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Tatsuya Otsuka"]
   spec.email         = ["tatzyr@gmail.com"]
 
-  spec.summary       = %q{Create LICENSE file into your project.}
+  spec.summary       = %q{Create LICENSE file into your project. Formerly known as 'licensor'.}
   spec.homepage      = "https://github.com/Tatzyr/licenza"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

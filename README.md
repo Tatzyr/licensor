@@ -5,7 +5,7 @@
 [![Dependency Status](https://gemnasium.com/Tatzyr/licenza.svg)](https://gemnasium.com/Tatzyr/licenza)
 
 
-Create LICENSE file into your project.
+Create LICENSE file into your project. Formerly known as 'licensor'.
 
 ![create-demo](https://cloud.githubusercontent.com/assets/1025461/7900296/ab43db5a-0788-11e5-9e61-7a3366ff460d.gif)
 
